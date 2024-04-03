@@ -51,7 +51,8 @@ header ul {
 
 header ul li {
     display: inline-flex;
-    padding-right: 35px;
+    padding-right: 17.5px;
+    padding-left: 17.5px;
     margin-top: 0;
 }
 
@@ -60,10 +61,17 @@ header ul li a {
     text-decoration: none;
 }
 header ul li a:hover {
-    color: #F2613F; /* Changed hover color to a different shade */
+    color: #0C0C0C; /* Changed hover color to a different shade */
     transition: color 500ms; /* Transition for color change */
 }
 
+li:hover {
+    background-color: #F2613F;
+    box-shadow: 0px 0px  10px  #F2613F;
+    border: 15px;
+    border-radius: 5px;
+
+}
 
 section {
     padding: 20px 0;
@@ -100,6 +108,8 @@ section {
     background-color: #F2613F;
     
 }
+
+
 
 #about {
     padding-top: 200px;
@@ -196,15 +206,16 @@ height:590px;
     display: inline-block;
     background-color: transparent;
     color: #fff;
-    padding: 10px 20px;
+    padding: 5px 20px;
     text-decoration: none; /* Added solid border with white color */
     border-radius: 5px;
     border:none;
-    transition: background-color 700ms;
+    transition: background-color  700ms;
+    transition: box-shadow 700ms;
     margin-left: 232px;
     font-size: 25px;
 }
 .login-button:hover{
-    background-color: #F2613F;
+    box-shadow: 0px 0px  10px  #F2613F;
+    background-color: #F2613F ;
 }
-
